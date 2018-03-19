@@ -2,6 +2,10 @@
 
 Rexdeploy: 一个基于名字服务自动化平台（`终端版`）
 
+
+
+\[toc\]
+
 ## 简单描述
 
 > RexDeploy是一个免客户端安装的管控平台，支持基于`名字服务的自动发布`，基于`名字服务的自动重启(启动与停止)`，以及基于`名字服务的日志集中式管理`，用户管理等，同时也支持`批量执行命令`，`文件分发`（`上传与下载`）等。
@@ -31,10 +35,5 @@ Rexdeploy: 一个基于名字服务自动化平台（`终端版`）
 
 此前放出过第一个版本，详情请撮：
 
-http://git.oschina.net/lookingdreamer/RexDeploy\_v1
-
-  
-
-
-
+[http://git.oschina.net/lookingdreamer/RexDeploy\_v1](http://git.oschina.net/lookingdreamer/RexDeploy_v1)
 
