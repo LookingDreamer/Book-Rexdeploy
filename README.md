@@ -1,6 +1,6 @@
 # Rexdeploy
 
-Rexdeploy: 一个基于名字服务自动化平台（终端版）
+Rexdeploy: 一个基于名字服务自动化平台（`终端版`）
 
 ## 简单描述
 
