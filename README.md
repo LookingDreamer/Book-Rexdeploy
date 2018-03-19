@@ -1,2 +1,6 @@
-# Book-Rexdeploy
-为自动化平台Rexdeploy编写书籍
+# Rexdeploy
+
+Rexdeploy: 一个基于名字服务自动化平台
+
+
+
