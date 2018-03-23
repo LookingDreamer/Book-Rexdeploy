@@ -73,5 +73,9 @@ vagrant up #启动
 vagrant ssh #进入终端
 ```
 
+通过vagrant进入到虚拟机之后，执行 \` cd /data/RexdeployV3 && rex -T \`, 如果也看到以上一样的截图，则证明安装成功。
+
+
+
 
 

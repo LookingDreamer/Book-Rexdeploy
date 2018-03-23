@@ -9,4 +9,6 @@
   * 其他操作系统
   * [配置](an-zhuang/pei-zhi.md)
 * 快速开始
+* [附录](fu-lu.md)
+  * [Vagrant常用命令](fu-lu/vagrantchang-yong-ming-ling.md)
 
