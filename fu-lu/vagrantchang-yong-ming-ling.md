@@ -91,8 +91,8 @@ Vagrant还包括如下一些操作：
 
 	输出用于ssh连接的一些信息
 
-		$vagrant ssh-config
-		Host default
+		  $vagrant ssh-config
+		  Host default
 		  HostName 127.0.0.1
 		  User vagrant
 		  Port 2222
@@ -109,9 +109,7 @@ Vagrant还包括如下一些操作：
 
 		$vagrant status
 		Current machine states:
-
-		default                   running (virtualbox)
-
+		default running  (virtualbox)
 		The VM is running. To stop this VM, you can run `vagrant halt` to
 		shut it down forcefully, or you can run `vagrant suspend` to simply
 		suspend the virtual machine. In either case, to restart it again,
