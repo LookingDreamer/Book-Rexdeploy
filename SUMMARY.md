@@ -4,8 +4,9 @@
 * [原理](yuan-li.md)
 * [安装](an-zhuang.md)
   * [Windows](an-zhuang/shi-yong-docker-an-zhuang.md)
-  * Centos
+  * [Centos](an-zhuang/centos.md)
   * Mac
   * 其他操作系统
+  * [配置](an-zhuang/pei-zhi.md)
 * 快速开始
 
