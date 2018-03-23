@@ -73,11 +73,14 @@ vagrant up #启动
 vagrant ssh #进入终端
 ```
 
-通过vagrant进入到虚拟机之后，执行 \` cd /data/RexdeployV3 && rex -T \`, 如果也看到以上一样的截图，则证明安装成功。
+通过vagrant进入到虚拟机之后，执行 `cd /data/RexdeployV3 && rex -T`, 如果也看到以上一样的截图，则证明安装成功。
 
 ## VirtualBox方式安装
 
-这种方式基本上没有必要介绍了，将下载下来的VirtualBox的虚拟镜像文件导入即可。
+这种方式基本上没有必要介绍了，将下载下来的VirtualBox的虚拟镜像文件导入即可。镜像下载地址:   [https://download.osichina.net/tools](https://download.osichina.net/tools) 。导入完成之后启动虚拟机，进入到/data/RexdeployV3 目录，执行`rex -T`，如果也看到以上一样的截图，则证明安装成功。
 
-镜像下载地址:   [https://download.osichina.net/tools](https://download.osichina.net/tools)
+
+
+
+
 
