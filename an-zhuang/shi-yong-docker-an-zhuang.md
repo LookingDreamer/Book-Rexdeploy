@@ -24,10 +24,10 @@ docker exec -it [containerID] bash #使用容器ID登陆
 
 进入到容器之后执行 `rex -T`, 看到以下提示，则证明安装已经成功。![](/assets/import.png)
 
-> 注意: 如果你安装的docker版本是[Docker Toolbox](https://www.docker.com/toolbox) ,那么请按照如下的方法进入容器操作，主要的原因是因为
+> 注意: 如果你安装的docker版本是[Docker Toolbox](https://www.docker.com/toolbox) ,那么请按照如下的方法进入容器操作。主要的原因是因为windows版本对某些特殊字符不支持，遇到特殊字符，容器就会自动退出，建议进入到宿主机进行操作。
 >
->
->
+> - Docker Toolbox操作如下:
+
 > ```
 > git clone https://gitee.com/lookingdreamer/RexDeployV3.git
 > cd RexDeployV3/docker
@@ -36,7 +36,7 @@ docker exec -it [containerID] bash #使用容器ID登陆
 > docker ps #查询容器id 
 > docker-machine ls #查询容器宿主机的name
 > docker-machine ssh [machine-name] #默认为default,如果你的docker-machine的name为default,可以不加该参数
->
+> docker exec -it [containerID] bash #使用容器ID登陆
 > ```
 
 
