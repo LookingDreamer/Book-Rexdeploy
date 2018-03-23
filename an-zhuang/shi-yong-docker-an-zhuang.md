@@ -57,7 +57,7 @@ docker exec -it [containerID] bash #使用容器ID登陆
 
 ## Vagrant + VirtualBox方式安装
 
-这种方式安装需要你安装Vagrant和VirtualBox，如果你已经安装可以忽略，如果未安装可以按照本来上面给的地址自行下载。
+这种方式安装需要你安装Vagrant和VirtualBox，如果你已经安装可以忽略，如果未安装可以按照上面给的地址自行下载。
 
 ```
 git clone https://gitee.com/lookingdreamer/RexDeployV3.git
