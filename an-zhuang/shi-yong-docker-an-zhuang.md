@@ -56,8 +56,22 @@ docker exec -it [containerID] bash #使用容器ID登陆
 #### Docker 从阿里云拉取镜像运行
 
 ## Vagrant + VirtualBox方式安装
+
 这种方式安装需要你安装Vagrant和VirtualBox，如果你已经安装可以忽略，如果未安装可以按照本来上面给的地址自行下载。
 
+```
+git clone https://gitee.com/lookingdreamer/RexDeployV3.git
+cd RexDeployV3
+cd vagrant
+rm ./.vagrant/  -fr #删除原用户的vagrant数据，windows下直接删除该目录重新创建一个新的空目录也是可以的。
+mv ./Vagrantfile ./Vagrantfile.bak
+wget --no-check-certificate  https://download.osichina.net/tools/rexdeployv3.box
+vagrant box add rexdelopy rexdeployv3.box #添加镜像
+vagrant init rexdelopy #初始化
+\cp  ./Vagrantfile.bak ./Vagrantfile 
+vagrant up #启动
+vagrant ssh #进入终端
+```
 
 
 
