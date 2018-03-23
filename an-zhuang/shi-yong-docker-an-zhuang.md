@@ -11,3 +11,12 @@ VirtualBox-5.2.6-120293: [https://download.osichina.net/tools/VirtualBox-5.2.6-1
 
 docker环境的安装，这里就不过过多介绍，不知道安装docker环境请撮: [https://get.daocloud.io/](https://get.daocloud.io/)
 
+### Docker快速体验
+```
+git clone https://gitee.com/lookingdreamer/RexDeployV3.git
+cd RexDeployV3/docker
+docker build --rm -t rexdeploy:3.0 .
+docker run -it -d rexdeploy:3.0
+docker ps 
+docker exec -it [containerID] bash
+```
