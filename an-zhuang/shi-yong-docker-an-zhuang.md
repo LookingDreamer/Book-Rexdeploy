@@ -12,7 +12,7 @@ VirtualBox-5.2.6-120293: [https://download.osichina.net/tools/VirtualBox-5.2.6-1
 docker环境的安装，这里就不过过多介绍，不知道安装docker环境请撮: [https://get.daocloud.io/](https://get.daocloud.io/)
 
 ### Docker快速体验
-
+#### Docker build运行
 ```
 git clone https://gitee.com/lookingdreamer/RexDeployV3.git
 cd RexDeployV3/docker
@@ -39,10 +39,10 @@ docker exec -it [containerID] bash #使用容器ID登陆
 > docker exec -it [containerID] bash #使用容器ID登陆
 > ```
 
-### Docker镜像导入运行
+#### Docker镜像导入运行
 如果你的网速还可以，不想重新build，你也可以直接下载备份镜像运行，由于镜像打包了jdk/tomcat4个模拟客户端的安装环境，镜像包比较大，目前镜像包大小为1.7G
 ```
-wget https://download.osichina.net/docker/rexdeploy3.0.tar
+wget --no-check-certificate https://download.osichina.net/docker/rexdeploy3.0.tar
 docker load -i  rexdeploy3.0.tar
 docker run -it -d rexdeploy:3.0
 docker ps #查询容器id 
