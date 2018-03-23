@@ -39,6 +39,14 @@ docker exec -it [containerID] bash #使用容器ID登陆
 > docker exec -it [containerID] bash #使用容器ID登陆
 > ```
 
-
+### Docker镜像导入运行
+如果你的网速还可以，不想重新build，你也可以直接下载备份镜像运行，由于镜像打包了jdk/tomcat4个模拟客户端的安装环境，镜像包比较大，目前镜像包大小为1.7G
+```
+wget https://download.osichina.net/docker/rexdeploy3.0.tar
+docker load -i  rexdeploy3.0.tar
+docker run -it -d rexdeploy:3.0
+docker ps #查询容器id 
+docker exec -it [containerID] bash #使用容器ID登陆
+```
 
 
