@@ -5,7 +5,7 @@
 * [安装](an-zhuang.md)
   * [Windows](an-zhuang/shi-yong-docker-an-zhuang.md)
   * [Centos](an-zhuang/centos.md)
-  * Mac
+  * [Mac](an-zhuang/mac.md)
   * 其他操作系统
   * [配置](an-zhuang/pei-zhi.md)
 * 快速开始
