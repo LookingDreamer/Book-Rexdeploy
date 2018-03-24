@@ -45,10 +45,7 @@ Warning: Using a password on the command line interface can be insecure.
 [ 2018-03-24 17:26:33 ] 初始化数据库配置完成
 [ 2018-03-24 17:26:33 ] 初始化rex模块包
 [ 2018-03-24 17:26:33 ] 初始化rex模块包成功
- 
 ```
 
-
-
-
+安装并初始化配置之后执行 `cd RexDeployV3 && rex -T`, 看到以下提示，则证明安装已经成功.![](/assets/install.png)
 
