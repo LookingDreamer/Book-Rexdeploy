@@ -16,12 +16,12 @@ docker的安装方式和vitualbox安装方式也同样适用于其他的操作�
 
 ## 4个模拟客户端信息
 
-|序号 |唯一名字 |服务名  |地址  |应用类型  |配置文件路径  | 工程文件路径 |进程关键词 |应用启动脚本  |分组名称  | 状态 |
+| 序号 | 唯一名字 | 服务名 | 地址 | 应用类型 | 配置文件路径 | 工程文件路径 | 进程关键词 | 应用启动脚本 | 分组名称 | 状态 |
 | :---: | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---: |
 | 1 | server1 | 后台服务集群1 | 127.0.0.1 | tomcat | /data/www/config1 | /data/www/html1 | tomcat-server1 | /etc/init.d/tomcat-server1 | server | 2 |
 | 2 | server2 | 后台服务集群2 | 127.0.0.1 | tomcat | /data/www/config2 | /data/www/html2 | tomcat-server2 | /etc/init.d/tomcat-server2 | server | 2 |
 | 3 | flow1 | 调度服务集群1 | 127.0.0.1 | tomcat | /data/www/flow1/WEB-INF/classes/ | /data/www/flow1 | tomcat-flow1 | /etc/init.d/tomcat-flow1 | flow | 1 |
 | 4 | flow2 | 调度服务集群2 | 127.0.0.1 | tomcat | /data/www/flow2/WEB-INF/classes/ | /data/www/flow2 | tomcat-flow2 | /etc/init.d/tomcat-flow2 | flow | 1 |
 
-
+更多关于客户端数据请参考数据库章节
 
