@@ -6,7 +6,7 @@
   * [Windows](an-zhuang/shi-yong-docker-an-zhuang.md)
   * [Centos](an-zhuang/centos.md)
   * [Mac](an-zhuang/mac.md)
-  * 其他操作系统
+  * [其他操作系统](an-zhuang/qi-ta-cao-zuo-xi-tong.md)
   * [配置](an-zhuang/pei-zhi.md)
 * 快速开始
 * [附录](fu-lu.md)

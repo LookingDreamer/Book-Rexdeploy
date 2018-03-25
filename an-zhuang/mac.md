@@ -22,7 +22,7 @@ $ curl -L https://get.rexify.org | perl - --sudo -n Rex
 cpanm Rex
 ```
 
-## 第二步 安装相关依赖
+## 第二步 安装其他相关依赖
 
 ```
 cpanm DBI DBD::mysql Mojo::JSON JSON:PP
