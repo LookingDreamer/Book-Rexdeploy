@@ -64,16 +64,16 @@ config
    # global_sudo:是否开启sudo,on为开启,off为关闭 sudo_password:sudo时密码 
    # timeout:SSH超时时间  
    # max_connect_retries:SSH失败时最大连接尝试次数 
-   
+
    # logfile:日志文件
    # groups_file:IP分组文件 
    # parallelism:最大的并发数量
-          
+
    # table:主机信息表(废弃)  
    # monitor_table:监控数据表(暂时不使用)  
    # rerite_info_table:是否写入json文件(暂时不使用)  
    # default_jsonfile:默认json串存储文件(暂时不使用) 
-   
+
    ## 基于名字服务的自动发布相关配置项      
    # table_string:数据库初始化主机信息要查询的字段(不要轻易修改)  
    # softdir:待发布应用目录 
@@ -97,6 +97,17 @@ config
    # list_task:执行rex -T 要显示的模块  
    # service_start_retry:启动服务失败时的尝试次数  
    # rsync_log_stdout:是否显示传输包的进度和传输速度
+   
+   ## 基于名字服务的日志系统相关配置项 
+   # download_dir: 默认日志下载路径
+   # log_rsync_server: 日志rsync服务器地址
+   # log_rsync_user: 日志rsync服务器用户
+   # log_rsync_pass: 日志rsync服务器密码
+   # log_rsync_module: 日志rsync服务器模块
+   # max_grep_row: 500 默认最大显示日志行数
+   
+   ## 用户管理
+   # common_public_key: 缺省默认公钥设置
 ```
 
 ### 分组配置文件: `config/ip_lists.ini`
