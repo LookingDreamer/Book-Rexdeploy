@@ -6,7 +6,6 @@
 安装rex依赖方法参照官方文档: [https://www.rexify.org/get.html](https://www.rexify.org/get.html)
 
 ## 第二步 安装其他相关依赖
-
 ```
 cpanm DBI DBD::mysql Mojo::JSON JSON:PP
 ```
