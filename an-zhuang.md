@@ -9,3 +9,10 @@ docker安装方式: 请参照本章节 1.3.1 [Windows](https://github.com/Lookin
 vitualbox+vagrant和vitualbox安装方式: 也请参照本章节 1.3.1 [Windows](https://github.com/LookingDreamer/Book-Rexdeploy/blob/master/an-zhuang/shi-yong-docker-an-zhuang.md)
 
 docker的安装方式和vitualbox安装方式也同样适用于其他的操作系统，如果想快速体验，建议使用docker安装或者vitualbox的方式安装使用。
+
+## 说明
+
+> docker的安装方式和vitualbox安装方式默认带了4模拟客户端，其他的安装方式只安装核心应用，4个模拟客户端只是方便测试使用，对应用安装没有影响。
+
+
+
