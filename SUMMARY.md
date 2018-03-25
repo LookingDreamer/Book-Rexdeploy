@@ -11,4 +11,5 @@
 * 快速开始
 * [附录](fu-lu.md)
   * [Vagrant常用命令](fu-lu/vagrantchang-yong-ming-ling.md)
+* 数据库表字段
 
