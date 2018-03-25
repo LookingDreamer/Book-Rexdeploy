@@ -57,7 +57,7 @@ config
 * 主配置解释
 
 ```
-   ##认证相关配置
+   ## 认证相关配置
    # key_auth=true时,为秘钥认证. pass_auth=true,为密码认证。秘钥认证和密码认证不能同时为真;
    # 当key_auth=true时,仅支持秘钥认证密码为空的情况
    # user:用户名 password:密码 private_key:私钥文件 public_key:公钥文件 
@@ -65,10 +65,12 @@ config
    # timeout:SSH超时时间  
    # max_connect_retries:SSH失败时最大连接尝试次数 
 
+   ## 日志/分组/并发配置 
    # logfile:日志文件
    # groups_file:IP分组文件 
    # parallelism:最大的并发数量
 
+   ## 现暂未使用，新版可能使用
    # table:主机信息表(废弃)  
    # monitor_table:监控数据表(暂时不使用)  
    # rerite_info_table:是否写入json文件(暂时不使用)  
@@ -92,12 +94,14 @@ config
    # deploy_record_table:发布时记录数据表 
    # deploy_status_table:发布时状态数据表  
    # external_status:是否开启外网表,当开启外网表时,需要你将新建 复制主机详细配置文件数据表,同时将内网地址和外网地址交换,当external_status为true时,deploy_config_table将不起作用,读取外网表
-   # external_deploy_config_table:  主机详细配置文件数据表(外网表)
-   # list_all_task_status:是否要打印所有的模块信息,如果不为false,则答应所有的模块信息。为false时,则打印list_task所列出的模块   
-   # list_task:执行rex -T 要显示的模块  
+   # external_deploy_config_table:  主机详细配置文件数据表(外网表)  
    # service_start_retry:启动服务失败时的尝试次数  
    # rsync_log_stdout:是否显示传输包的进度和传输速度
-   
+
+   ## 通用配置
+   # list_all_task_status:是否要打印所有的模块信息,如果不为false,则答应所有的模块信息。为false时,则打印list_task所列出的模块   
+   # list_task:执行rex -T 要显示的模块
+
    ## 基于名字服务的日志系统相关配置项 
    # download_dir: 默认日志下载路径
    # log_rsync_server: 日志rsync服务器地址
@@ -105,7 +109,7 @@ config
    # log_rsync_pass: 日志rsync服务器密码
    # log_rsync_module: 日志rsync服务器模块
    # max_grep_row: 500 默认最大显示日志行数
-   
+
    ## 用户管理
    # common_public_key: 缺省默认公钥设置
 ```
