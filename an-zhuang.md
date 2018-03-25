@@ -12,7 +12,7 @@ docker的安装方式和vitualbox安装方式也同样适用于其他的操作�
 
 ## 说明
 
-> docker的安装方式和vitualbox安装方式默认带了4个模拟客户端，其他的安装方式只安装核心应用，4个模拟客户端只是方便测试使用，对应用安装没有影响。![](/assets/servermap.png)
+> docker的安装方式和vitualbox安装方式默认带了4个模拟客户端，其他的安装方式只安装核心应用，4个模拟客户端只是方便测试使用，对应用安装没有影响。（因为docker和virtualbox版本包含了jdk,4个tomcat等模拟客户端程序，所以docker版本和virtualbox版本的包都比较大，有1G以上的安装包，仅体验核心应用的话，可以试用centos平台安装）![](/assets/servermap.png)
 
 ## 4个模拟客户端信息
 
