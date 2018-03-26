@@ -39,16 +39,9 @@ RexDeploy是一个免客户端安装的管控平台，支持基于`名字服务�
 
 [http://git.oschina.net/lookingdreamer/RexDeploy\_v1](http://git.oschina.net/lookingdreamer/RexDeploy_v1)
 
-rex官方：[http://rexify.org/](http://rexify.org/)
-rex中文: [http://rex.osichina.net](http://rex.osichina.net/)
+rex官方：[http://rexify.org/](http://rexify.org/)  
+rex中文: [http://rex.osichina.net](http://rex.osichina.net/)  
 rex github: [https://github.com/RexOps/Rex ](https://github.com/RexOps/Rex)
 
-由于国内有时候访问不了rex官方，本人根据[官方git](https://github.com/RexOps/rexify-website)重新拉取了一份中文官方网站部署在搬瓦工上。
-
-
-
-
-
-
-
+由于国内有时候访问不了rex官方，本人根据[官方git](https://github.com/RexOps/rexify-website)重新拉取了一份中文官方网站部署在搬瓦工上，有需要请自行浏览。
 
